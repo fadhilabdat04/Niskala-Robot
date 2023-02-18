@@ -78,17 +78,17 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-NISKALA_IMG = "https://telegra.ph/file/b26f8a844221353be9fb0.jpg"
+NISKALA_IMG = "https://telegra.ph//file/8e4d2922fa48aff2be56d.jpg"
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {}, ɪ'ᴍ ɴɪsᴋᴀʟᴀ!*
-✪ `ɪ'ᴍ ᴀɴ ᴡᴀʏᴀɴɢ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​` [✨](https://telegra.ph/file/b12bb872e3609f6efec90.jpg)
+*ʜᴇʟʟᴏ {}, ɪ'ᴍ ᴀʀᴀʙ ʀᴏʙᴏᴛ!*
+✪ `ɪ'ᴍ ᴀɴ ᴀʀᴀʙ ʀᴏʙᴏᴛ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​` [✨](https://telegra.ph//file/8e4d2922fa48aff2be56d.jpg)
 ────────────────────
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ────────────────────
 ✪ `ʜɪᴛ` /help `ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.`
-✪ `ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ` `ʙʏ` @IDnyaAL
+✪ `ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ` `ʙʏ` @Arabnihnge
 """
 
 buttons = [
@@ -108,7 +108,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-    ✨ BAGJA KUMAYANGAN ✨
+    ✨ HALO ARABERS ✨
 
 `Klik Tombol Di Bawah Untuk Mendapatkan Deskripsi Tentang Perintah Spesifik.`
 » /Start : `Untuk Memulai Aku !!`
@@ -117,7 +117,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @IDnyaAL"""
+ @Arabnihnge"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -377,7 +377,7 @@ def niskala_about_callback(update, context):
             f"\n» `/Resume` - Untuk Memutar Trek Yang Dijeda Sebelumnya."
             f"\n» `/End` - Untuk Menghentikan Pemutaran Trek Dan Menghapus Antrean."
             f"\n» `/Skip` - Untuk Pergi Ke Trek Selanjutnya."
-            f"\n\n*Jika Ada Keluhan. Harap Hubungi @IDnyaAL*",
+            f"\n\n*Jika Ada Keluhan. Harap Hubungi @Arabnihnge*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -470,8 +470,8 @@ def niskala_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/NiskalaSupport"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/QwertYou_LoveMe"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/cehasiarab"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/spacesexid"),
                  ],
                  [
                     InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="niskala_about"),
